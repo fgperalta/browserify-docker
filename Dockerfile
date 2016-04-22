@@ -11,4 +11,5 @@ RUN apt-get -yq update && \
     apt-get install -yq curl && \
     curl -sL https://deb.nodesource.com/setup_5.x | bash - && \
     apt-get -qq -y install nodejs && \
+    apt-get -qq -y install git && \
     rm -r /usr/share/nginx/html/*
